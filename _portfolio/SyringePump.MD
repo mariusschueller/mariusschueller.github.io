@@ -2,12 +2,12 @@
 title: "Syringe Pump"
 excerpt: "A group project where I built and created a syringe pump."
 header:
-  image: /assets/img/syringe.jpg #FIXME
-  # teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
+  image: #/assets/img/syringe.jpg #FIXME
+  teaser: /assets/img/syringe.jpg
 gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
+  - image_path: /assets/img/syringe.jpg
+  - image_path: /assets/img/IMG_2250.jpg
+  - image_path: /assets/img/IMG_2253.jpg
    
 ---
 
@@ -20,4 +20,4 @@ gallery:
 # CAD Model
 <iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Large Format 3D Printer Gallery" %}
+{% include gallery caption="Syringe Pump Photos" %}
