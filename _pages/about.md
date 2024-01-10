@@ -28,8 +28,8 @@ Marius has experience in a wide range of programming languages.
 * Go
 * R
 
-<!-- ## Press 
+## Awards
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/). -->
+Recognized for my humanitarian work in the [Vanderbilt Hustler](https://news.vanderbilt.edu/2023/11/09/metro-council-to-honor-the-nichols-humanitarian-fund-with-resolution/). 
 
 <img src="/assets/img/selfie.jpg" alt="Marius Schueller" style="width:200px; border-radius:10px;"/>

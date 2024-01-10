@@ -2,10 +2,8 @@
 title: "Syringe Pump"
 excerpt: "A group project where I built and created a syringe pump."
 header:
-  image: #/assets/img/syringe.jpg #FIXME
   teaser: /assets/img/syringe.jpg
 gallery:
-  - image_path: /assets/img/syringe.jpg
   - image_path: /assets/img/IMG_2250.jpg
   - image_path: /assets/img/IMG_2253.jpg
    
