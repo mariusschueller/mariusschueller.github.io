@@ -1,19 +1,19 @@
 ---
-title: "Example Web Page"
+title: "Marius Schueller Portfolio"
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/Home-Banner-Image.jpeg
+  overlay_image: /assets/img/Home-Banner-Image.jpeg # FIXME to syringe pump
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
-feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
+excerpt: "Marius Schueller is a Computer Science major at Vanderbilt University."
+feature_row: #FIXME ADD SYRINGE PUMP
+  - image_path: assets/img/ CNC-Mill-Thumbnail.jpg
     alt: "CNC Mill"
     title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
+    excerpt: "Built for fabricating aluminum and steel parts." 
   - image_path: assets/img/Plasma-Cutter-Banner.jpg
     alt: "placeholder image 2"
     title: "DIY Plasma Cutter"
