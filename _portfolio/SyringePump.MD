@@ -10,11 +10,31 @@ gallery:
 ---
 
 # Description
-<!--  -->
+
+This project involves creating a cost-effective syringe pump as a substitute for commercial models. Utilizing CAD, electrical prototyping, programming, and 3D printing, the design aims to be affordable yet highly effective for dispensing precise liquid amounts. Key features include a stepper motor for control, compatibility with different syringe diameters, an LED indicating pump status, and a safety limit switch. The model is enclosed for protection, designed for easy disassembly, and incorporates unique branding. The programming, done through Arduino, ensures dynamic control of the pump with safety measures and visual feedback.
 
 # Parts
 
-<!-- table here -->
+| Item                                           | Quantity |
+|------------------------------------------------|----------|
+| 250 mm lead screw with 2 mm pitch and 2 mm lead  | 1        |
+| 250 mm lead screw with 2 mm pitch and 8 mm lead  | 1        |
+| 1/4" x 8mm Flexible Coupling                     | 1        |
+| 200 mm linear rod with 8 mm diameter            | 2        |
+| LM8UU Linear bearing for 8 mm diameter rod      | 2        |
+| 2040 Aluminum Extrusion 1' Length               | 1        |
+| Nema 17 Stepper Motor                           | 1        |
+| MEAN WELL RQ-65D AC-DC Power Supply Quad Output 5V 12V 24V 12V 4 Amp | 1 |
+| Arduino Uno                                     | 1        |
+| A4988 Stepper Driver                            | 1        |
+| Small Breadboard                                | 1        |
+| Panel Mount Latching Push Buttons               | 1        |
+| Limit Switch                                    | 1        |
+| RGB Common Cathode LED                          | 1        |
+| Monetary Buttons                                | 1        |
+| Potentiometer (Not Incorporated)                | 1        |
+
+
 
 # Code
 
