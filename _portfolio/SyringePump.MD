@@ -4,14 +4,20 @@ excerpt: "A group project where I built and created a syringe pump."
 header:
   teaser: /assets/img/syringe.jpg
 gallery:
-  - image_path: /assets/img/IMG_2250.jpg
-  - image_path: /assets/img/IMG_2253.jpg
+  - image_path: /assets/img/pic1.jpg
+  - image_path: /assets/img/pic2.jpg
+  - image_path: /assets/img/pic3.jpg
+  - image_path: /assets/img/pic4.jpg
    
 ---
+
+<br>
 
 # Description
 
 This project involves creating a cost-effective syringe pump as a substitute for commercial models. Utilizing CAD, electrical prototyping, programming, and 3D printing, the design aims to be affordable yet highly effective for dispensing precise liquid amounts. Key features include a stepper motor for control, compatibility with different syringe diameters, an LED indicating pump status, and a safety limit switch. The model is enclosed for protection, designed for easy disassembly, and incorporates unique branding. The programming, done through Arduino, ensures dynamic control of the pump with safety measures and visual feedback.
+
+<br>
 
 # Parts
 
@@ -34,7 +40,7 @@ This project involves creating a cost-effective syringe pump as a substitute for
 | Monetary Buttons                                | 1        |
 | Potentiometer (Not Incorporated)                | 1        |
 
-
+<br>
 
 # Code
 
@@ -42,9 +48,13 @@ This project involves creating a cost-effective syringe pump as a substitute for
 
 Code On [Github](https://github.com/mariusschueller/Syringe/blob/master/main/main.ino). 
 
+<br>
+
 # Model
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e10515e96ce3f04fe?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+<br>
 
 # Operating Instructions
 
@@ -67,6 +77,8 @@ Code On [Github](https://github.com/mariusschueller/Syringe/blob/master/main/mai
 6. **Directional Control:**
    - Use additional buttons to change the motor's direction.
    - Hold the left button to move the syringe back for refilling, and hold the right button to empty the syringe at a constant rate.
+
+<br>
 
 
 {% include gallery caption="Syringe Pump Photos" %}
