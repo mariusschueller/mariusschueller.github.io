@@ -4,7 +4,7 @@ excerpt: "A group project where I built and created a syringe pump."
 header:
   teaser: /assets/img/syringe.jpg
 gallery:
-  - image_path: /assets/img/pic1.jpgd
+  - image_path: /assets/img/pic1.jpg
   - image_path: /assets/img/pic3.jpg
   - image_path: /assets/img/pic4.jpg
    
