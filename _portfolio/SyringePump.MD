@@ -48,8 +48,25 @@ Code On [Github](https://github.com/mariusschueller/Syringe/blob/master/main/mai
 
 # Operating Instructions
 
+1. **Loading the Syringe:**
+   - Place the syringe in the pump with its outward extrusions fitting into the middle support.
+   - Ensure the syringe tip faces away from the motor, and the plunger end is in the carriage's top extrusion.
 
-# CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e10515e96ce3f04fe?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+2. **Powering On:**
+   - Plug in the syringe pump and press the latching button, serving as the start/stop button.
+
+3. **Starting Operation:**
+   - Once powered on, press the latching button again to start the pump. The LED will turn green, indicating the pump is running.
+
+4. **Pausing Operation:**
+   - Press the latching button once more to pause the pump. The LED will turn yellow, signaling a pause in operation.
+
+5. **Completing Operation:**
+   - When the syringe is empty, and the carriage hits the limit switch on the middle mount, the pump stops, and the LED turns red.
+
+6. **Directional Control:**
+   - Use additional buttons to change the motor's direction.
+   - Hold the left button to move the syringe back for refilling, and hold the right button to empty the syringe at a constant rate.
+
 
 {% include gallery caption="Syringe Pump Photos" %}
