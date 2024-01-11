@@ -4,8 +4,7 @@ excerpt: "A group project where I built and created a syringe pump."
 header:
   teaser: /assets/img/syringe.jpg
 gallery:
-  - image_path: /assets/img/pic1.jpg
-  - image_path: /assets/img/pic2.jpg
+  - image_path: /assets/img/pic1.jpgd
   - image_path: /assets/img/pic3.jpg
   - image_path: /assets/img/pic4.jpg
    
@@ -63,10 +62,10 @@ Code On [Github](https://github.com/mariusschueller/Syringe/blob/master/main/mai
    - Ensure the syringe tip faces away from the motor, and the plunger end is in the carriage's top extrusion.
 
 2. **Powering On:**
-   - Plug in the syringe pump and press the latching button, serving as the start/stop button.
+   - Plug in the syringe pump to an outlet. 
 
 3. **Starting Operation:**
-   - Once powered on, press the latching button again to start the pump. The LED will turn green, indicating the pump is running.
+   - Once powered on, press the latching button to start the pump. The LED will turn green, indicating the pump is running.
 
 4. **Pausing Operation:**
    - Press the latching button once more to pause the pump. The LED will turn yellow, signaling a pause in operation.

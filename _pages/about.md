@@ -28,6 +28,12 @@ Marius has experience in a wide range of programming languages.
 * Go
 * R
 
+Other Technical Skills.
+
+* 3D Modeling
+* 3D Printing
+
+
 ## Awards
 
 Recognized for my humanitarian work in the [Vanderbilt Hustler](https://news.vanderbilt.edu/2023/11/09/metro-council-to-honor-the-nichols-humanitarian-fund-with-resolution/). 
