@@ -39,6 +39,18 @@ This project involves creating a cost-effective syringe pump as a substitute for
 | Monetary Buttons                                | 1        |
 | Potentiometer (Not Incorporated)                | 1        |
 
+# Custom Designed Parts
+| Custom Part                    |
+|--------------------------------|
+| Carriage (Syringe Plunger Support) |
+| Syringe Tip End Support        |
+| LED Mount                      |
+| Syringe Body Middle Mounting Plate |
+| NEMA 17 Motor Mounting Plate   |
+| Left End Mount                 |
+| Electronics Enclosure Lid      |
+| Electronics Enclosure Box      |
+
 <br>
 
 # Code
