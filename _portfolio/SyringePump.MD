@@ -40,6 +40,7 @@ This project involves creating a cost-effective syringe pump as a substitute for
 | Potentiometer (Not Incorporated)                | 1        |
 
 # Custom Designed Parts
+
 | Custom Part                    |
 |--------------------------------|
 | Carriage (Syringe Plunger Support) |
