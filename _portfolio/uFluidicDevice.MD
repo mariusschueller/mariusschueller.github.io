@@ -2,11 +2,11 @@
 title: "uFluidic Device"
 excerpt: "Creating a microfluidic device to mix two fluids."
 header:
-  teaser: /assets/img/syringe.jpg
+  teaser: /assets/img/ufluidicdevice1.jpg
 gallery:
-  - image_path: /assets/img/pic1.jpg
-  - image_path: /assets/img/pic3.jpg
-  - image_path: /assets/img/pic4.jpg
+  - image_path: /assets/img/ufluidicdevice2.jpg
+  - image_path: /assets/img/ufluidicdevice3.jpg
+  - image_path: /assets/img/ufluidicdevice4.jpg
    
 ---
 
