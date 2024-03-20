@@ -1,6 +1,6 @@
 ---
-title: "Syringe Pump"
-excerpt: "A group project where I built and created a syringe pump."
+title: "uFluidic Device"
+excerpt: "Creating a microfluidic device to mix two fluids."
 header:
   teaser: /assets/img/syringe.jpg
 gallery:
@@ -12,9 +12,13 @@ gallery:
 
 <br>
 
-# Description
+# Introduction
 
-This project involves creating a cost-effective syringe pump as a substitute for commercial models. Utilizing CAD, electrical prototyping, programming, and 3D printing, the design aims to be affordable yet highly effective for dispensing precise liquid amounts. Key features include a stepper motor for control, compatibility with different syringe diameters, an LED indicating pump status, and a safety limit switch. The model is enclosed for protection, designed for easy disassembly, and incorporates unique branding. The programming, done through Arduino, ensures dynamic control of the pump with safety measures and visual feedback.
+Microfluidic (uFluidic) devices refer to systems with small liquid channels. Microfluidic devices can be used in fluid mixing, droplet generation, and fluid separation. There are many possible applications including medical diagnostics, DNA sequencing, tissue engineering, and
+environmental testing. By leveraging precise control over small volumes of liquids, microfluidic devices enable efficient and accurate processes, revolutionizing traditional methods and opening avenues for rapid, cost-effective, and portable solutions in a multitude of applications.
+
+In microfluidics, achieving effective mixing poses a significant challenge due to the absence of turbulent mixing commonly observed in macro-scale fluid systems. Instead, microfluidic devices typically operate under laminar flow conditions within small chambers, where conventional mixing mechanisms are inefficient. To overcome this limitation, the next solution is chaotic advection, which leverages geometric intricacies or external perturbations to induce chaotic flow patterns within the laminar regime, thereby enhancing mixing efficiency. This necessitates innovative design approaches and precise control strategies to harness chaotic advection for homogeneous mixing.
+
 
 <br>
 
@@ -93,4 +97,4 @@ Code On [Github](https://github.com/mariusschueller/Syringe/blob/master/main/mai
 <br>
 
 
-{% include gallery caption="Syringe Pump Photos" %}
+{% include gallery caption="uFluidic Device Photos" %}
