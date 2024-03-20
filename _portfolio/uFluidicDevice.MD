@@ -11,7 +11,7 @@ gallery:
 ---
 
 <br>
-<img src=/assets/img/ufluidicdevice1.jpg>
+<img src="/assets/img/ufluidicdevice1.jpg">
 
 <br>
 # Introduction
