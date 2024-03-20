@@ -11,7 +11,9 @@ gallery:
 ---
 
 <br>
+<img src=/assets/img/ufluidicdevice1.jpg>
 
+<br>
 # Introduction
 
 Microfluidic (uFluidic) devices refer to systems with small liquid channels. Microfluidic devices can be used in fluid mixing, droplet generation, and fluid separation. There are many possible applications including medical diagnostics, DNA sequencing, tissue engineering, and
