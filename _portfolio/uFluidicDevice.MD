@@ -22,77 +22,35 @@ In microfluidics, achieving effective mixing poses a significant challenge due t
 
 <br>
 
-# Parts
+# Logic Behind Mixing Sections
 
-| Item                                           | Quantity |
-|------------------------------------------------|----------|
-| 250 mm lead screw with 2 mm pitch and 2 mm lead  | 1        |
-| 250 mm lead screw with 2 mm pitch and 8 mm lead  | 1        |
-| 1/4" x 8mm Flexible Coupling                     | 1        |
-| 200 mm linear rod with 8 mm diameter            | 2        |
-| LM8UU Linear bearing for 8 mm diameter rod      | 2        |
-| 2040 Aluminum Extrusion 1' Length               | 1        |
-| Nema 17 Stepper Motor                           | 1        |
-| MEAN WELL RQ-65D AC-DC Power Supply Quad Output 5V 12V 24V 12V 4 Amp | 1 |
-| Arduino Uno                                     | 1        |
-| A4988 Stepper Driver                            | 1        |
-| Small Breadboard                                | 1        |
-| Panel Mount Latching Push Buttons               | 1        |
-| Limit Switch                                    | 1        |
-| RGB Common Cathode LED                          | 1        |
-| Monetary Buttons                                | 1        |
-| Potentiometer (Not Incorporated)                | 1        |
-
-# Custom Designed Parts
-
-| Custom Part                    |
-|--------------------------------|
-| Carriage (Syringe Plunger Support) |
-| Syringe Tip End Support        |
-| LED Mount                      |
-| Syringe Body Middle Mounting Plate |
-| NEMA 17 Motor Mounting Plate   |
-| Left End Mount                 |
-| Electronics Enclosure Lid      |
-| Electronics Enclosure Box      |
+On the left side (top) of the device, the design principle for the mixing section includes a series of splitting flow paths, sharp corners, and inclined mixers to introduce chaotic advection. When the fluid enters the device, it comes into contact with another and splits into one pathway. Here, the contact and turn allow for mixing. After this division, the path contains a series of inclined mixers (4), which further disrupt the parallel flow. These inclined mixers are made with half triangles at a width, length, and height of 1 mm. After this short chaotic distance, the paths diverge, and then each path goes through a sharp turn, inducing chaotic advection. The pathways after the mixers are at a height and width of 0.5 mm. The individual channels then converge into a larger channel, increasing the cross-sectional area, which introduces another round of chaotic fluid behavior. The fluid then goes through a series of conversions, diversions, and a final turn to fully mix. These paths have a width and height of 1 mm.
 
 <br>
 
-# Code
+# Instructions
 
-<script src="https://gist.github.com/mariusschueller/2ad81b6cef701bb5aa797111ca2e98c5.js"></script>
+The fabrication process of the microfluidic device began with the creation of a mold using stereolithography. This mold, designed in CAD, was printed using a Formlabs Fuse 3 SLA printer and high-temperature resin. After printing, the mold underwent a washing process to remove excess resin, followed by a drying period and a brief curing step to prevent warping.
 
-Code On [Github](https://github.com/mariusschueller/Syringe/blob/master/main/main.ino). 
+To address potential issues with resin leakage and compatibility with elastomers like PDMS, a thin layer of parylene was deposited onto the mold surface. This step enhanced biocompatibility and enabled the use of the resin mold for elastomeric device fabrication.
+
+Subsequently, the mold was used to cast PDMS, a transparent and flexible polymer. UV light exposure induced curing of the PDMS solution poured into the parylene-coated mold, resulting in the formation of a new PDMS mold.
+
+Finally, the PDMS mold was sealed using oxygen plasma treatment, which activated the PDMS surface and facilitated irreversible bonding with silicon-based materials like glass or silicon. This ensured the integrity of the microfluidic device.
+
+In summary, the process involved designing and printing a mold via stereolithography, coating it with parylene to prevent leaching, casting PDMS into the mold, and sealing the resulting elastomeric device using oxygen plasma treatment.
 
 <br>
 
 # Model
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e10515e96ce3f04fe?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e0362c82f4acd0594?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 <br>
 
-# Operating Instructions
+# Video
 
-1. **Loading the Syringe:**
-   - Place the syringe in the pump with its outward extrusions fitting into the middle support.
-   - Ensure the syringe tip faces away from the motor, and the plunger end is in the carriage's top extrusion.
-
-2. **Powering On:**
-   - Plug in the syringe pump to an outlet. 
-
-3. **Starting Operation:**
-   - Once powered on, press the latching button to start the pump. The LED will turn green, indicating the pump is running.
-
-4. **Pausing Operation:**
-   - Press the latching button once more to pause the pump. The LED will turn yellow, signaling a pause in operation.
-
-5. **Completing Operation:**
-   - When the syringe is empty, and the carriage hits the limit switch on the middle mount, the pump stops, and the LED turns red.
-
-6. **Directional Control:**
-   - Use additional buttons to change the motor's direction.
-   - Hold the left button to move the syringe back for refilling, and hold the right button to empty the syringe at a constant rate.
+FIXME EMBED
 
 <br>
 
