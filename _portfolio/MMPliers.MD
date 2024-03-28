@@ -47,5 +47,6 @@ maybe put a table here?
 
 <br>
 
-{% include gallery caption="Multimaterial Plier Photos\n*Only 1 printed iteration created" %}
+{% include gallery caption="Multimaterial Plier Photos
+*Only 1 printed iteration created" %}
 
