@@ -2,16 +2,14 @@
 title: "Multimaterial Pliers"
 excerpt: "Creating pliers utilizing 2 different materials."
 header:
-  teaser: /assets/img/ufluidicdevice1.jpg
+  teaser: /assets/img/pliers1.jpg
 gallery:
-  - image_path: /assets/img/ufluidicdevice2.jpg
-  - image_path: /assets/img/ufluidicdevice3.jpg
-  - image_path: /assets/img/ufluidicdevice4.jpg
+  - image_path: /assets/img/pliers1.jpg
+  - image_path: /assets/img/pliers2.jpg
    
 ---
 
-<br>
-<img src="/assets/img/ufluidicdevice1.jpg" style="border-radius: 20px;">
+
 
 <br>
 # Description
@@ -46,10 +44,10 @@ maybe put a table here?
 
 <br>
 
-# Working Video
+# Exaple Usage
 <img src="/assets/img/pliers.gif" style="border-radius: 20px;">
 
 <br>
 
-{% include gallery caption="uFluidic Device Photos" %}
-
+{% include gallery caption="Multimaterial Plier Photos" %}
+*Only 1 printed iteration created
