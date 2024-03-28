@@ -41,7 +41,10 @@ Jaw Capacity: 5 mm
 <br>
 
 # Print settings
-maybe put a table here?
+| Material | Nozzle Diameter (mm) | Infill (%) |
+|----------|-----------------------|------------|
+| PLA      | 0.6                   | 20         |
+| TPU      | 0.6                   | 20         |
 
 <br>
 
