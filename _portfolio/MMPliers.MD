@@ -21,7 +21,7 @@ gallery:
 <br>
 
 # Model
-
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6ead200767cb1ef0f6?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
 <br>
@@ -33,6 +33,8 @@ gallery:
 <br>
 
 # Specifications
+Jaw Length: 40 mm
+Jaw Capacity: 5 mm
 
 
 <br>
