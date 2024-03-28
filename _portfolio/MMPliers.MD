@@ -46,7 +46,10 @@ maybe put a table here?
 
 <br>
 
-PUT GIF HERE
+# Working Video
+<img src="/assets/img/pliers.gif" style="border-radius: 20px;">
+
+<br>
 
 {% include gallery caption="uFluidic Device Photos" %}
 
