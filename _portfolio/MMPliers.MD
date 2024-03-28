@@ -41,10 +41,14 @@ Jaw Capacity: 5 mm
 <br>
 
 # Print settings
-| Material | Nozzle Diameter (mm) | Infill (%) |
-|----------|-----------------------|------------|
-| PLA      |         0.6           |     20     |
-| TPU      |         0.6           |     20     |
+<b>PLA:</b> 
+  Nozzle Diameter: 0.6 mm
+  Infill: 20%
+
+<br>
+<b>TPU:</b>
+  Nozzle Diameter: 0.6 mm
+  Infill: 20%
 
 <br>
 
