@@ -34,6 +34,7 @@ gallery:
 
 # Specifications
 Jaw Length: 40 mm
+<br>
 Jaw Capacity: 5 mm
 
 
@@ -50,5 +51,5 @@ maybe put a table here?
 <br>
 
 {% include gallery caption="Multimaterial Plier Photos
-*Only 1 printed iteration created" %}
+<br>*Only 1 printed iteration created" %}
 
