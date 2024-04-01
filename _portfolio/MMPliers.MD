@@ -32,7 +32,7 @@ When considering material combinations for print-in-place parts, several options
 <br>
 
 # About
-I based most of my design on an <a href="https://all3dp.com/3d-printed-flexible-pliers/" target="_blank">online model</a> The model uses a flexible grid in the middle connected to 2 handle pieces and 2 jaws. As the handles get squeezed toward each other, the middle portion flexes which causes the jaws to move towards each other. To connect the middle part to the handles and jaws, I created a joint similar to the online design with its circular joint design. In this model’s joints, the circular part will fit into a hole similar to a puzzle piece to stay in. To print the pliers, I used PLA and TPU. I used the PLA as the rigid material for the handles and jaws. I used TPU for the flexible middle portion of the pliers. I printed each part separately and then pushed them together to create the final product. 
+I based most of my design on an <a href="https://all3dp.com/3d-printed-flexible-pliers/" target="_blank">online model</a>. The model uses a flexible grid in the middle connected to 2 handle pieces and 2 jaws. As the handles get squeezed toward each other, the middle portion flexes which causes the jaws to move towards each other. To connect the middle part to the handles and jaws, I created a joint similar to the online design with its circular joint design. In this model’s joints, the circular part will fit into a hole similar to a puzzle piece to stay in. To print the pliers, I used PLA and TPU. I used the PLA as the rigid material for the handles and jaws. I used TPU for the flexible middle portion of the pliers. I printed each part separately and then pushed them together to create the final product. 
 
 
 <br>
