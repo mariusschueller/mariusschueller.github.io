@@ -1,5 +1,5 @@
 ---
-title: "Bike Phone Mount/Holder"
+title: "Bike Phone Holder"
 excerpt: "Creating pliers utilizing 2 different materials."
 header:
   teaser: /assets/img/pliers1.jpg
@@ -13,55 +13,29 @@ gallery:
 <img src="/assets/img/pliers1.jpg" style="border-radius: 20px;">
 
 <br>
-# Description
-In this project, I created pliers using two materials. This project involves print-in-place parts, which are parts that work right after printing with multiple components. In this case, after printing the pliers together, they will simply work. One notable application of print-in-place parts is with robotics and mechanical engineering. Engineers and hobbyists utilize this technology to create robotic components, such as joints, gears, and linkages, that can be printed directly into their assembled state. This eliminates the need for time-consuming assembly processes and reduces the risk of misalignment or errors that may occur when joining multiple components. Additionally, print-in-place parts enable the creation of compact and lightweight robotic systems, making them ideal for applications in fields such as prosthetics and automation. Another application area is in the development of intricate puzzles and toys, where print-in-place mechanisms can be integrated to enhance the interactive and engaging aspects of the final product. From Rubik's cubes to mechanical puzzles, 3D printing allows for the creation of complex and customizable designs that challenge and entertain users. Additionally, in education, print-in-place parts offer valuable opportunities for hands-on learning and experimentation, allowing students to explore mechanical principles and design concepts in a tangible and interactive way. Overall, print-in-place parts represent a fascinating intersection of creativity, functionality, and manufacturing innovation, with diverse applications across various industries and disciplines.
-
-
-<br>
-When considering material combinations for print-in-place parts, several options can enhance the printing process and the structural integrity of the final product. These combinations encompass various materials such as PLA and TPU, PLA and PVA for water-soluble supports, ABS and HIPs, and the utilization of fresh and recycled materials. The bonding between these materials hinges on several crucial factors. Surface energy plays a pivotal role, as materials with similar surface energies tend to bond more effectively. Chemical composition also influences bonding; materials with akin intermolecular forces generally exhibit better bonding tendencies. Disparities in shrinkage and cooling rates between materials can lead to issues such as warping, distortion, or even layer separation. Furthermore, the mechanical compatibility between materials is essential; instances where materials possess mismatched mechanical properties, such as combining flexible and rigid materials, may result in ineffective bonding and compromised structural integrity.
-
-
-
+# Top-down Modeling and its Use
+Top-down modeling is the process where new components are modeled around the assembly. This allows for a design process where new parts are created based on previously designed parts. In this project, I began my design by creating the bar. From there I modeled the clamp onto the bar. I continued by adding the main phone holder with the screw. I then used the screw to model the top phone holder and the fastener.
 
 <br>
 
 # Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6ead200767cb1ef0f6?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<br>
 
+# Design Rational
+The rationale behind my design was one where ideally any phone of any size could fit. As a result, I focused on high adjustability. My solution to doing this was to use a 3D printed long screw section. Essentially, two parts will clamp onto the phone. One part is detached and can move through a gap in the screw while the other is stationary. The moving section will have a fastener that can tighten behind it, clamping down on the phone. By doing this, both horizontal and vertical phone orientations can be used.
 
 <br>
 
-# About
-I based most of my design on an <a href="https://all3dp.com/3d-printed-flexible-pliers/" target="_blank">online model</a>. The model uses a flexible grid in the middle connected to 2 handle pieces and 2 jaws. As the handles get squeezed toward each other, the middle portion flexes which causes the jaws to move towards each other. To connect the middle part to the handles and jaws, I created a joint similar to the online design with its circular joint design. In this model’s joints, the circular part will fit into a hole similar to a puzzle piece to stay in. To print the pliers, I used PLA and TPU. I used the PLA as the rigid material for the handles and jaws. I used TPU for the flexible middle portion of the pliers. I printed each part separately and then pushed them together to create the final product. 
-
-
-<br>
-
-# Specifications
-Jaw Length: 40 mm
-<br>
-Jaw Capacity: 5 mm
-
+# Assembly instructions 
+Use M5 screws and fasteners to attach the bar clamp to the phone holder part. From there, use M5 screws to clamp the part around the bar. The screws should be tightened until firmly set on the bar. Now the phone can be placed. Attach the moving phone holder part and then the fastener onto the screw. The phone holder part can freely move to the phone, so now rotate the fastener until tight on the phone. 
 
 <br>
 
-# Print settings
-<b>PLA:</b> 
-  <br>Nozzle Diameter: 0.6 mm
-  <br>Infill: 20%
-
-<br>
-<b>TPU:</b>
-  <br>Nozzle Diameter: 0.6 mm
-  <br>Infill: 20%
+# Material choice 
+I used PLA entirely for this project. The main reason behind this was to simplify the design process. PLA is the simplest and strongest material that can easily be printed, which is why I used it. While using TPU for gripping would work great, not using multimaterial parts allowed me to quickly design and test my prints.
 
 <br>
 
-# Exaple Usage
-<img src="/assets/img/pliers.gif" style="border-radius: 20px;">
-
-<br>
-
-{% include gallery caption="Multimaterial Plier Photos
-<br>*Only 1 printed iteration created" %}
+{% include gallery caption="Phone Bike Holder Photos" %}
 
