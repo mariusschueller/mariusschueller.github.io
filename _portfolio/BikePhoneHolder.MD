@@ -1,11 +1,11 @@
 ---
 title: "Bike Phone Holder"
-excerpt: "Creating pliers utilizing 2 different materials."
+excerpt: "A phone holder that attaches to a bike."
 header:
-  teaser: /assets/img/pliers1.jpg
+  teaser: /assets/img/isobikepic.jpg
 gallery:
-  - image_path: /assets/img/pliers1.jpg
-  - image_path: /assets/img/pliers2.jpg
+  - image_path: /assets/img/bikephonepic1.jpg
+  - image_path: /assets/img/bikephonepic2.jpg
    
 ---
 
