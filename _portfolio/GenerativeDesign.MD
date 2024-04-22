@@ -1,13 +1,11 @@
 ---
-title: "Multimaterial Pliers"
-excerpt: "Creating pliers utilizing 2 different materials."
+title: "Generative Design Skateboard Truck"
+excerpt: "Using generative design to create a Skateboard Truck."
 header:
-  teaser: /assets/img/pliers1.jpg
+  teaser: /assets/img/nylon.png
+
    
 ---
-
-<br>
-<img src="/assets/img/pliers1.jpg" style="border-radius: 20px;">
 
 <br>
 # Generative Design Overview
@@ -32,11 +30,17 @@ Another critique is the computing power needed. The generative design process is
 Overall, generative design is useful when it’s important to minimize the amount of material while still being able to withstand the forces upon a part. This can include situations where money and research are spent to get the “best” design before producing a part. 
 
 
-<br>
+# Skateboard Truck Generated Designs
 
-# Nylon Model
 
-# Aluminum Model
+## Nylon Model
+
+
+ADD IMAGES AS TAGS
+
+## Aluminum Model
+
+ADD IMAGES AS TAGS
 
 
 
