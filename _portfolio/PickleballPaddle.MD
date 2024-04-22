@@ -12,7 +12,7 @@ gallery:
 ---
 
 <br>
-<img src="/assets/img/pliers1.jpg" style="border-radius: 20px;">
+<img src="/assets/img/paddle1.jpg" style="border-radius: 20px;">
 
 <br>
 # Overview
