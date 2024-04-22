@@ -2,7 +2,7 @@
 title: "Generative Design Skateboard Truck"
 excerpt: "Using generative design to create a Skateboard Truck."
 header:
-  teaser: /assets/img/nylon.png
+  teaser: /assets/img/nylon3.png
 
 ---
 
