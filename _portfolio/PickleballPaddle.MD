@@ -4,7 +4,6 @@ excerpt: "Creating a Pickle Ball Paddle"
 header:
   teaser: /assets/img/paddle1.jpg
 gallery:
-  - image_path: /assets/img/paddle1.jpg
   - image_path: /assets/img/paddle2.jpg
   - image_path: /assets/img/paddle3.jpg
   - image_path: /assets/img/paddle4.jpg
