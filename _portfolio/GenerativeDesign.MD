@@ -34,7 +34,7 @@ Overall, generative design is useful when it’s important to minimize the amoun
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e42a29e1a2e9fba3c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 <img src="/assets/img/nylon.png" style="border-radius: 20px;">
-<br>
+<br><br>
 <img src="/assets/img/nylon2.png" style="border-radius: 20px;">
 <br>
 
@@ -43,7 +43,7 @@ Overall, generative design is useful when it’s important to minimize the amoun
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e7e8fada4757a91e8?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 <img src="/assets/img/aluminun.png" style="border-radius: 20px;">
-<br>
+<br><br>
 <img src="/assets/img/aluminum2.png" style="border-radius: 20px;">
 
 
