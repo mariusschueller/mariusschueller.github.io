@@ -1,11 +1,13 @@
 ---
-title: "Multimaterial Pliers"
-excerpt: "Creating pliers utilizing 2 different materials."
+title: "Pickleball Paddle"
+excerpt: "Creating a Pickle Ball Paddle"
 header:
-  teaser: /assets/img/pliers1.jpg
+  teaser: /assets/img/paddle1.jpg
 gallery:
-  - image_path: /assets/img/pliers1.jpg
-  - image_path: /assets/img/pliers2.jpg
+  - image_path: /assets/img/paddle1.jpg
+  - image_path: /assets/img/paddle2.jpg
+  - image_path: /assets/img/paddle3.jpg
+  - image_path: /assets/img/paddle4.jpg
    
 ---
 
@@ -19,7 +21,7 @@ Pickleball is a racket sport that has been rapidly growing in popularity. The ga
 <br>
 # Design
 ## Adhering to the Rule Book
-There are many regulations for a pickleball paddle according to the USA Pickleball Official Rulebook (ANCHOR TAG). The three main specifications are material, surface, and size. The material used in paddles is open to anything deemed safe. This can be summarized into non-compressible, rigid material. For my design, PLA fits this criteria as a rigid material. The surface must be flat and consistent. This means that the paddle cannot contain holes or cracks. In addition, the surface cannot allow any excessive spin on the paddle. Using 3D printing methods, this can be achieved assuming no printing issues. For size, the combined length and width of the paddle cannot exceed 24 inches (60.96 cm). My paddles maximum combined length and width is _ cm. In addition, the length cannot exceed 17 inches (cm). My paddles length is _ cm. Therefore, my paddle follows all the rules set in the pickleball rulebook.
+There are many regulations for a pickleball paddle according to the USA Pickleball Official Rulebook (ANCHOR TAG). The three main specifications are material, surface, and size. The material used in paddles is open to anything deemed safe. This can be summarized into non-compressible, rigid material. For my design, PLA fits this criteria as a rigid material. The surface must be flat and consistent. This means that the paddle cannot contain holes or cracks. In addition, the surface cannot allow any excessive spin on the paddle. Using 3D printing methods, this can be achieved assuming no printing issues. For size, the combined length and width of the paddle cannot exceed 24 inches (60.96 cm). My paddle's maximum combined length and width is _ cm. In addition, the length cannot exceed 17 inches (cm). My paddle's length is _ cm. Therefore, my paddle follows all the rules set in the pickleball rulebook.
 
 <br>
 
@@ -36,19 +38,15 @@ Factoring in the initial weight estimations of the PLA material, it was clear th
 
 <br>
 ## Mass Balance
-According to this (ADD ANCHOR TAG) article, there are two types of mass balances: “head light” and “head heavy”. A head heavy paddle means that there will be a heavier swing weight which will result in “slower” play. It will make the paddle harder to move and change directions but will increase the power of the swing. Because the weight of my paddle is optimized for power, it was clear that a swing weight optimized for power would also be preferred. The article illustrates that a 5:8 ratio for the top of the paddle is needed for a "head heavy" paddle. This means that the top half of the paddle should make up about 62.5% of the total paddle’s weight. The process for aligning these weights was splitting up the top half and bottom half of the paddle and seeing how changing the infill impacted the estimated weight of the print. The following table shows my calculations at different infills:
+According to this (ADD ANCHOR TAG) article, there are two types of mass balances: “head light” and “head heavy”. A head heavy paddle means that there will be a heavier swing weight which will result in “slower” play. It will make the paddle harder to move and change directions but will increase the power of the swing. Because the weight of my paddle is optimized for power, it was clear that a swing weight optimized for power would also be preferred. The article illustrates that a 5:8 ratio for the top of the paddle is needed for a "head heavy" paddle. This means that the top half of the paddle should make up about 62.5% of the total paddle’s weight. The process for aligning these weights was splitting up the top half and bottom half of the paddle and seeing how changing the infill impacted the estimated weight of the print. In the end, I used 70% infill for my playing surface piece.
 
-ADD TABLE
-
-In the end, I used _ infill for my playing surface piece.
-
+<br>
 
 # Model
-
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6ed01c68891f80f6b9?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 <br>
 
 
-{% include gallery caption="Multimaterial Plier Photos
-<br>*Only 1 printed iteration created" %}
+{% include gallery caption="Pickleball Paddle Images" %}
 
