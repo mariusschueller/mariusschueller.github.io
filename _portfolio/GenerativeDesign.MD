@@ -3,9 +3,6 @@ title: "Multimaterial Pliers"
 excerpt: "Creating pliers utilizing 2 different materials."
 header:
   teaser: /assets/img/pliers1.jpg
-gallery:
-  - image_path: /assets/img/pliers1.jpg
-  - image_path: /assets/img/pliers2.jpg
    
 ---
 
@@ -13,55 +10,33 @@ gallery:
 <img src="/assets/img/pliers1.jpg" style="border-radius: 20px;">
 
 <br>
-# Description
-In this project, I created pliers using two materials. This project involves print-in-place parts, which are parts that work right after printing with multiple components. In this case, after printing the pliers together, they will simply work. One notable application of print-in-place parts is with robotics and mechanical engineering. Engineers and hobbyists utilize this technology to create robotic components, such as joints, gears, and linkages, that can be printed directly into their assembled state. This eliminates the need for time-consuming assembly processes and reduces the risk of misalignment or errors that may occur when joining multiple components. Additionally, print-in-place parts enable the creation of compact and lightweight robotic systems, making them ideal for applications in fields such as prosthetics and automation. Another application area is in the development of intricate puzzles and toys, where print-in-place mechanisms can be integrated to enhance the interactive and engaging aspects of the final product. From Rubik's cubes to mechanical puzzles, 3D printing allows for the creation of complex and customizable designs that challenge and entertain users. Additionally, in education, print-in-place parts offer valuable opportunities for hands-on learning and experimentation, allowing students to explore mechanical principles and design concepts in a tangible and interactive way. Overall, print-in-place parts represent a fascinating intersection of creativity, functionality, and manufacturing innovation, with diverse applications across various industries and disciplines.
+# Generative Design Overview
+Generative design is a recent development that has created a different 3D design process. By harnessing algorithms and computational power, generative design enables users to input parameters and constraints, allowing the computer to explore countless design iterations and come up with solutions that meet the specified criteria. Paring generative design and powder bed fusion can work especially well. Powder bed fusion is a type of additive manufacturing that involves selectively melting layers of powdered material to build up a part. This technique offers considerable freedom in geometric complexity without the need for support structures, making it ideal for printing intricate, organic, and unconventional designs. These intricate, organic, and unconventional designs are often the outputs of generative design. Printing these designs on traditional filament printing will usually require support structures that can be difficult to remove. Often the parts created in generative design will also be optimized for strength, and powder printed parts are strong.
+
+In the aerospace industry, parts need to be optimized for weight while still being able to withstand the necessary forces. Generative design is the perfect use case here because it is designed to minimize the amount of material needed for the part to function under certain load cases. Through extensive testing and simulation, engineers can find the loads exerted on a part that would be generated in the future. This ensures that they meet the stringent safety and performance standards required in aerospace applications. This iterative process of design, analysis, and validation allows for the creation of lightweight yet robust components that can withstand the rigors of flight while minimizing fuel consumption and maximizing payload capacity.
+
+Similarly, in the automotive industry, generative design can be very useful. With the ever-increasing demand for lightweight yet strong components to improve fuel efficiency, performance, and sustainability, generative design presents an ideal solution. In the automotive sector, where space optimization is critical due to the compact nature of vehicles, generative design can be particularly advantageous. By inputting the required performance criteria, such as load-bearing capacity, structural integrity, and space constraints, engineers can leverage generative design algorithms to explore a wide range of design options tailored to fit specific forms and requirements. Generative design enables the creation of parts with intricate geometries that efficiently distribute loads and stresses while minimizing material usage and space requirements. This can lead to components that are not only lighter but also more compact, allowing for more efficient use of interior space within vehicles.
 
 
-<br>
-When considering material combinations for print-in-place parts, several options can enhance the printing process and the structural integrity of the final product. These combinations encompass various materials such as PLA and TPU, PLA and PVA for water-soluble supports, ABS and HIPs, and the utilization of fresh and recycled materials. The bonding between these materials hinges on several crucial factors. Surface energy plays a pivotal role, as materials with similar surface energies tend to bond more effectively. Chemical composition also influences bonding; materials with akin intermolecular forces generally exhibit better bonding tendencies. Disparities in shrinkage and cooling rates between materials can lead to issues such as warping, distortion, or even layer separation. Furthermore, the mechanical compatibility between materials is essential; instances where materials possess mismatched mechanical properties, such as combining flexible and rigid materials, may result in ineffective bonding and compromised structural integrity.
+## Pros and Cons
+With generative design, it certainly can be very useful when the main forces and material geometries are known. That being said, in most cases, finding out the forces involved can be time-consuming or expensive to find out. This can require rigorous testing or complex physics calculations. And even then, a safety factor is often needed to account for unexpected forces.
 
+Similarly, it may be difficult or time consuming to get the geometry of the generated design to fit with all of the constraints. Between obstacle constraints and preserved geometries, there can be a lot of work that needs to occur before a design can be generated. Then, after a part is generated, the obstacle constraints and preserved geometries will often need to be iterated upon.
 
+The design process is another major difference. A lot of times, the traditional design process, when done correctly, is straightforward to change the size of a part. A well-parameterized part is only one number away from changing the size of a design. On the contrary, a whole new part will need to be generated and new forces will likely need to be created to account for the new size.
 
+Another major critique of generative design is the time that it takes for the design to generate. More complicated parts will take more time to render. As designs become more intricate, the computational load increases exponentially. When the computer iterates through numerous possibilities, optimizing for various factors such as strength, weight, material usage, and manufacturability adds more work to each iteration.
 
-<br>
+Another critique is the computing power needed. The generative design process is done through the cloud which requires a lot of computing power and more money as more and more designs are generated. This can lead to an accessibility issue where small businesses and individuals may not be able to harness generative design as much as others due to cost.
 
-# Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6ead200767cb1ef0f6?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
-
-<br>
-
-# About
-I based most of my design on an <a href="https://all3dp.com/3d-printed-flexible-pliers/" target="_blank">online model</a>. The model uses a flexible grid in the middle connected to 2 handle pieces and 2 jaws. As the handles get squeezed toward each other, the middle portion flexes which causes the jaws to move towards each other. To connect the middle part to the handles and jaws, I created a joint similar to the online design with its circular joint design. In this model’s joints, the circular part will fit into a hole similar to a puzzle piece to stay in. To print the pliers, I used PLA and TPU. I used the PLA as the rigid material for the handles and jaws. I used TPU for the flexible middle portion of the pliers. I printed each part separately and then pushed them together to create the final product. 
-
-
-<br>
-
-# Specifications
-Jaw Length: 40 mm
-<br>
-Jaw Capacity: 5 mm
+Overall, generative design is useful when it’s important to minimize the amount of material while still being able to withstand the forces upon a part. This can include situations where money and research are spent to get the “best” design before producing a part. 
 
 
 <br>
 
-# Print settings
-<b>PLA:</b> 
-  <br>Nozzle Diameter: 0.6 mm
-  <br>Infill: 20%
+# Nylon Model
 
-<br>
-<b>TPU:</b>
-  <br>Nozzle Diameter: 0.6 mm
-  <br>Infill: 20%
+# Aluminum Model
 
-<br>
 
-# Exaple Usage
-<img src="/assets/img/pliers.gif" style="border-radius: 20px;">
-
-<br>
-
-{% include gallery caption="Multimaterial Plier Photos
-<br>*Only 1 printed iteration created" %}
 
