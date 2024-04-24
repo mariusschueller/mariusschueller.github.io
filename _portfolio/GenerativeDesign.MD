@@ -4,6 +4,12 @@ excerpt: "Using generative design to create a Skateboard Truck."
 header:
   teaser: /assets/img/nylon3.png
 
+gallery:
+  - image_path: /assets/img/truck1.jpg
+  - image_path: /assets/img/truck2.jpg
+  - image_path: /assets/img/truck3.jpg
+  - image_path: /assets/img/truck4.jpg
+
 ---
 
 ## Generative Design Overview
@@ -42,8 +48,11 @@ Overall, generative design is useful when it’s important to minimize the amoun
 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e7e8fada4757a91e8?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+
 <img src="/assets/img/aluminun.png" style="border-radius: 20px;">
 <br><br>
 <img src="/assets/img/aluminum2.png" style="border-radius: 20px;">
 
+
+{% include gallery caption="Nylon Truck Photos" %}
 
