@@ -57,7 +57,7 @@ Overall, generative design is useful when it’s important to minimize the amoun
 <br><br>
 <img src="/assets/img/aluminum2.png" style="border-radius: 20px;">
 <br><br>
-<img src="/assets/img/aluminunrender1.png" style="border-radius: 20px;">
+<img src="/assets/img/aluminumrender1.png" style="border-radius: 20px;">
 <br><br>
 <img src="/assets/img/aluminumrender2.png" style="border-radius: 20px;">
 <br>
