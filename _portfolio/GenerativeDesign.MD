@@ -42,6 +42,10 @@ Overall, generative design is useful when it’s important to minimize the amoun
 <img src="/assets/img/nylon.png" style="border-radius: 20px;">
 <br><br>
 <img src="/assets/img/nylon2.png" style="border-radius: 20px;">
+<br><br>
+<img src="/assets/img/nylonrender1.png" style="border-radius: 20px;">
+<br><br>
+<img src="/assets/img/nylonrender2.png" style="border-radius: 20px;">
 <br>
 
 ## Aluminum Model
@@ -52,7 +56,11 @@ Overall, generative design is useful when it’s important to minimize the amoun
 <img src="/assets/img/aluminun.png" style="border-radius: 20px;">
 <br><br>
 <img src="/assets/img/aluminum2.png" style="border-radius: 20px;">
-
+<br><br>
+<img src="/assets/img/aluminunrender1.png" style="border-radius: 20px;">
+<br><br>
+<img src="/assets/img/aluminumrender2.png" style="border-radius: 20px;">
+<br>
 
 {% include gallery caption="Nylon Truck Photos" %}
 
